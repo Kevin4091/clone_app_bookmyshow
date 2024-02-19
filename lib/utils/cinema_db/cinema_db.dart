@@ -240,3 +240,9 @@ List<Map> comedyEvents = [
     "name": "MUSIC SHOWS"
   },
 ];
+
+List<String> carousel2 = [
+ "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn96VDMBFhG26rGuk8f-4KtY2tOx4CVBEz6g&usqp=CAU"
+   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-VhF87TyngOBzU-Pm5qwR7z9LPF68-S-ihw&usqp=CAU"
+  
+];

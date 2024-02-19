@@ -1,9 +1,10 @@
-// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, sized_box_for_whitespace
 
 //import 'package:clone_app_bookmyshow/utils/cinema_db/cinema_db.dart';
 //import 'package:clone_app_bookmyshow/utils/home_icons.dart';
 import 'package:clone_app_bookmyshow/view/carousel_page/carousel.dart';
-import 'package:clone_app_bookmyshow/view/homescreen/best_events_grid/best_events_grid.dart';
+import 'package:clone_app_bookmyshow/view/carousel_page/carousel2.dart';
+import 'package:clone_app_bookmyshow/view/homescreen/widgets/best_events_grid.dart';
 //import 'package:clone_app_bookmyshow/view/homescreen/live_events_card/live_events.dart';
 import 'package:clone_app_bookmyshow/view/live_screen/live_fun_events/live_fun_events.dart';
 import 'package:clone_app_bookmyshow/view/live_screen/live_fun_events/live_new_events.dart';
@@ -64,7 +65,7 @@ class _LiveScreenState extends State<LiveScreen> {
               Container(
                 height: 180,
                 color: Colors.black,
-                child: CustomCarouselSlides(),
+                child: CustomCarouselSlides2(),
               ),
               Container(
                 height: 200,

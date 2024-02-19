@@ -1,6 +1,10 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 //import 'package:flutter/foundation.dart';
+import 'package:clone_app_bookmyshow/view/profile_screen/profile_pages/help_centre.dart';
+import 'package:clone_app_bookmyshow/view/profile_screen/profile_pages/play_credit.dart';
+import 'package:clone_app_bookmyshow/view/profile_screen/profile_pages/stream_library.dart';
+import 'package:clone_app_bookmyshow/view/profile_screen/profile_pages/your_order.dart';
 import 'package:flutter/material.dart';
 
 class ProfileScreen extends StatefulWidget {
@@ -60,33 +64,69 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 height: 450,
                 child: Column(
                   children: [
-                    ListTile(
-                      leading: Icon(Icons.shopping_bag),
-                      title: Text("Your Orders"),
-                      subtitle: Text("View all your bookings & purchases"),
-                      trailing: Icon(Icons.chevron_right),
+                    InkWell(
+                      onTap: () {
+                        Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => YourOder(),
+                            ));
+                      },
+                      child: ListTile(
+                        leading: Icon(Icons.shopping_bag),
+                        title: Text("Your Orders"),
+                        subtitle: Text("View all your bookings & purchases"),
+                        trailing: Icon(Icons.chevron_right),
+                      ),
                     ),
                     Divider(),
-                    ListTile(
-                      leading: Icon(Icons.live_tv),
-                      title: Text("Stream Library"),
-                      subtitle: Text("Rented & purchased Movies"),
-                      trailing: Icon(Icons.chevron_right),
+                    InkWell(
+                      onTap: () {
+                        Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => StreamLibrary(),
+                            ));
+                      },
+                      child: ListTile(
+                        leading: Icon(Icons.live_tv),
+                        title: Text("Stream Library"),
+                        subtitle: Text("Rented & purchased Movies"),
+                        trailing: Icon(Icons.chevron_right),
+                      ),
                     ),
                     Divider(),
-                    ListTile(
-                      leading: Icon(Icons.local_atm),
-                      title: Text("Play Credit Card"),
-                      subtitle:
-                          Text("View your Play Credit Card details and offers"),
-                      trailing: Icon(Icons.chevron_right),
+                    InkWell(
+                      onTap: () {
+                        Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => PlayCredit(),
+                            ));
+                      },
+                      child: ListTile(
+                        leading: Icon(Icons.local_atm),
+                        title: Text("Play Credit Card"),
+                        subtitle: Text(
+                            "View your Play Credit Card details and offers"),
+                        trailing: Icon(Icons.chevron_right),
+                      ),
                     ),
                     Divider(),
-                    ListTile(
-                      leading: Icon(Icons.help),
-                      title: Text("Help Centre"),
-                      subtitle: Text("Need help or have questions?"),
-                      trailing: Icon(Icons.chevron_right),
+                    InkWell(
+                      onTap: () {
+                        Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => HelpCentre(),
+                            ));
+                      },
+                      child: ListTile(
+                        leading: Icon(Icons.help),
+                        title: Text("Help Centre"),
+                        subtitle: Text("Need help or have questions?"),
+                        trailing: Icon(Icons.chevron_right),
+                      ),
                     ),
                     Divider(),
                     ListTile(

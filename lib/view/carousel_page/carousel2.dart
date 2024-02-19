@@ -1,8 +1,8 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 
-class CustomCarouselSlides extends StatelessWidget {
-  const CustomCarouselSlides({super.key});
+class CustomCarouselSlides2 extends StatelessWidget {
+  const CustomCarouselSlides2({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,12 +20,12 @@ class CustomCarouselSlides extends StatelessWidget {
                 enlargeCenterPage: true),
             items: [
               Image.network(
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn96VDMBFhG26rGuk8f-4KtY2tOx4CVBEz6g&usqp=CAU",
+                "https://img-cdn.thepublive.com/fit-in/640x430/filters:format(webp)/bollyy/media/media_files/44lk3p8XtQC8NtRVHYGJ.jpg",
                 fit: BoxFit.cover,
                 width: 1500,
               ),
               Image.network(
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-VhF87TyngOBzU-Pm5qwR7z9LPF68-S-ihw&usqp=CAU",
+                "https://www.adgully.com/img/800/202010/my-safety-first-1.jpg",
                 fit: BoxFit.cover,
                 width: 1500,
               )

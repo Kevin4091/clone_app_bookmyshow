@@ -3,6 +3,7 @@
 // import 'package:clone_app_bookmyshow/utils/color_constatnts.dart';
 // import 'package:clone_app_bookmyshow/utils/home_icons.dart';
 import 'package:clone_app_bookmyshow/view/carousel_page/carousel.dart';
+import 'package:clone_app_bookmyshow/view/carousel_page/carousel2.dart';
 import 'package:clone_app_bookmyshow/view/movie_screen/movie_genres/movie_genres.dart';
 import 'package:clone_app_bookmyshow/view/movie_screen/movie_lang_screen/movie_lang_screen.dart';
 import 'package:clone_app_bookmyshow/view/movie_screen/movie_widgets/movie_widget.dart';
@@ -80,7 +81,7 @@ class _MovieScreenState extends State<MovieScreen> {
                   height: 170,
                   //width: MediaQuery.sizeOf(context).width,
                   // color: Colors.amber,
-                  child: CustomCarouselSlides(),
+                  child: CustomCarouselSlides2(),
                 ),
               ),
               Padding(

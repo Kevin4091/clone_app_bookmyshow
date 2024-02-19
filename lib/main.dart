@@ -2,9 +2,10 @@
 
 import 'package:clone_app_bookmyshow/view/bottom_navigation/bottom_navigation.dart';
 import 'package:clone_app_bookmyshow/view/carousel_page/carousel.dart';
-import 'package:clone_app_bookmyshow/view/homescreen/best_events_grid/best_events_grid.dart';
+import 'package:clone_app_bookmyshow/view/homescreen/widgets/best_events_grid.dart';
 import 'package:clone_app_bookmyshow/view/homescreen/homescreen.dart';
 import 'package:clone_app_bookmyshow/view/homescreen/widgets/cinema_card.dart';
+import 'package:clone_app_bookmyshow/view/homescreen/widgets/movie_pages/movie_pages.dart';
 import 'package:clone_app_bookmyshow/view/live_screen/live_fun_events/live_fun_events.dart';
 import 'package:clone_app_bookmyshow/view/live_screen/live_screen.dart';
 import 'package:clone_app_bookmyshow/view/live_screen/live_widget/live_widget.dart';
