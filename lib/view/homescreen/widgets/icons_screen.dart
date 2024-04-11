@@ -1,7 +1,8 @@
 // ignore_for_file: prefer_const_constructors, sized_box_for_whitespace
 
 import 'package:clone_app_bookmyshow/utils/home_icons.dart';
-import 'package:clone_app_bookmyshow/view/homescreen/widgets/icon_navigate_screens.dart';
+import 'package:clone_app_bookmyshow/view/homescreen/widgets/icons_pages/stream_page.dart';
+//import 'package:clone_app_bookmyshow/view/homescreen/widgets/icon_navigate_screens.dart';
 import 'package:clone_app_bookmyshow/view/movie_screen/movie_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -13,27 +14,6 @@ class IconsScreen extends StatefulWidget {
 }
 
 class _IconsScreenState extends State<IconsScreen> {
-  static List<String> iconName = [
-    "Movies",
-    "Stream",
-    "Music\nshows",
-    "Comedy\nShows",
-    "Sports",
-    "See All"
-  ];
-  static List url = [
-    "assets/images/movies.jpeg",
-    "assets/images/video.jpeg",
-    "assets/images/mics.jpeg",
-    "assets/images/sports.jpeg",
-    "assets/images/music.jpeg",
-    "assets/images/amusement.jpeg",
-    "assets/images/view.jpeg"
-  ];
-
-  final List<IconDb> iconData = List.generate(iconName.length,
-      (index) => IconDb(name: iconName[index], imgUrl: url[index]));
-
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -44,15 +24,24 @@ class _IconsScreenState extends State<IconsScreen> {
           //width: MediaQuery.sizeOf(context).width,
           child: ListView.separated(
             shrinkWrap: true,
-            itemCount: iconData.length,
+            itemCount: icons.length,
             scrollDirection: Axis.horizontal,
             itemBuilder: (context, index) {
               return InkWell(
                 onTap: () {
-                  Navigator.of(context).push(MaterialPageRoute(
-                    builder: (context) =>
-                        IconNavigateScreen(obj: iconData[index]),
-                  ));
+                  if (index == 0) {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => MovieScreen(),
+                        ));
+                  } else if (index == 1) {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => StreamPage(),
+                        ));
+                  }
                 },
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -62,11 +51,11 @@ class _IconsScreenState extends State<IconsScreen> {
                         Column(
                           children: [
                             Image.asset(
-                              iconData[index].imgUrl,
+                              icons[index]["image"],
                               scale: 2.8,
                             ),
                             Text(
-                              iconData[index].name,
+                              icons[index]["title"],
                               style: TextStyle(fontSize: 13),
                             ),
                           ],

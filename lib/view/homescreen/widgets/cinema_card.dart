@@ -16,29 +16,28 @@ class CinemaCard extends StatefulWidget {
 }
 
 class _CinemaCardState extends State<CinemaCard> {
-  int selectedIndex = 0;
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      onTap: () {
-        if (selectedIndex == 0) {
-          Navigator.push(
-              context, MaterialPageRoute(builder: (context) => MovieScreen()));
-        } else if (selectedIndex == 2) {
-          Navigator.push(context,
-              MaterialPageRoute(builder: (context) => ProfileScreen()));
-        }
-      },
-      child: ListView.separated(
-        scrollDirection: Axis.horizontal,
-        // gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-        //   crossAxisCount: 1,
-        //   mainAxisExtent: 140,
-        //   //crossAxisSpacing: 10,
-        // ),
-        itemCount: cinemaDb.length,
-
-        itemBuilder: (context, index) => Column(
+    return ListView.separated(
+      scrollDirection: Axis.horizontal,
+      itemCount: cinemaDb.length,
+      itemBuilder: (context, index) => InkWell(
+        onTap: () {
+          if (index == 0) {
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => MovieScreen(),
+                ));
+          } else if (index == 1) {
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => ProfileScreen(),
+                ));
+          }
+        },
+        child: Column(
           children: [
             Container(
               height: 190,
@@ -106,9 +105,9 @@ class _CinemaCardState extends State<CinemaCard> {
             )
           ],
         ),
-        separatorBuilder: (context, index) => SizedBox(
-          width: 10,
-        ),
+      ),
+      separatorBuilder: (context, index) => SizedBox(
+        width: 10,
       ),
     );
   }

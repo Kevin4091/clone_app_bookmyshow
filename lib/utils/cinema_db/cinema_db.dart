@@ -242,7 +242,15 @@ List<Map> comedyEvents = [
 ];
 
 List<String> carousel2 = [
- "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn96VDMBFhG26rGuk8f-4KtY2tOx4CVBEz6g&usqp=CAU"
-   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-VhF87TyngOBzU-Pm5qwR7z9LPF68-S-ihw&usqp=CAU"
-  
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn96VDMBFhG26rGuk8f-4KtY2tOx4CVBEz6g&usqp=CAU"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-VhF87TyngOBzU-Pm5qwR7z9LPF68-S-ihw&usqp=CAU"
+];
+List<String> stream = [
+  "https://static.displate.com/280x392/displate/2024-01-16/949dddc801f497eb08071cf1caf2d46f_f9aa7f2f524af81684ce36275f4070ba.jpg",
+  "https://m.media-amazon.com/images/M/MV5BNzk4MGJhY2EtNmQ1Yi00YjYwLTk3YjMtN2Y4MTEwYjA2ZGIwXkEyXkFqcGdeQXVyMjEzNzg4NjU@._V1_.jpg",
+  "https://m.media-amazon.com/images/M/MV5BN2ZjNDg4ZGQtZTY4NC00MWVmLTk4ZmEtYjc1NWRkZWRjMWUwXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_.jpg",
+  "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_.jpg",
+  "https://upload.wikimedia.org/wikipedia/en/c/cb/Migration_%282023_film%29.jpg",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtNcvJDBtfkUc6dL5HPF1Hw-Y75k8PsToIh5K_RSpTw_5kWsrHkZcOIVH8ly7UG4B0USE&usqp=CAU",
+  "https://assets-in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/naughty-girl-et00386723-1707401494.jpg"
 ];
