@@ -19,9 +19,7 @@ class _IconsScreenState extends State<IconsScreen> {
     return Padding(
         padding: const EdgeInsets.all(10),
         child: Container(
-          //color: Colors.amber,
           height: 90,
-          //width: MediaQuery.sizeOf(context).width,
           child: ListView.separated(
             shrinkWrap: true,
             itemCount: icons.length,

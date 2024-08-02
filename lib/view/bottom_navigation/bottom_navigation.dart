@@ -18,7 +18,7 @@ class BottomNav extends StatefulWidget {
 }
 
 class _BottomNavState extends State<BottomNav> {
-  List pages = [HomeScreen(), MovieScreen(), LiveScreen(),ProfileScreen()];
+  List pages = [HomeScreen(), MovieScreen(), LiveScreen(), ProfileScreen()];
 
   int indexNum = 0;
   @override
@@ -33,7 +33,6 @@ class _BottomNavState extends State<BottomNav> {
               scale: 3,
             ),
             label: "Home",
-            // backgroundColor: Colors.green
           ),
           BottomNavigationBarItem(
             icon: Image.asset(
@@ -41,7 +40,6 @@ class _BottomNavState extends State<BottomNav> {
               scale: 3,
             ),
             label: "Movies",
-            // backgroundColor: Colors.amber
           ),
           BottomNavigationBarItem(
             icon: Image.asset(
@@ -49,13 +47,10 @@ class _BottomNavState extends State<BottomNav> {
               scale: 3,
             ),
             label: "Events",
-
-            // backgroundColor: Colors.red
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
             label: "Profile",
-            //  backgroundColor: Colors.blue
           )
         ],
         currentIndex: indexNum,

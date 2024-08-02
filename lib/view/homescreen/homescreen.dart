@@ -1,6 +1,5 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, sized_box_for_whitespace, unused_import
 
-//import 'package:carousel_slider/carousel_slider.dart';
 import 'package:clone_app_bookmyshow/utils/home_icons.dart';
 import 'package:clone_app_bookmyshow/view/carousel_page/carousel.dart';
 import 'package:clone_app_bookmyshow/view/homescreen/widgets/best_comedy.dart';
@@ -8,7 +7,7 @@ import 'package:clone_app_bookmyshow/view/homescreen/widgets/best_events_grid.da
 import 'package:clone_app_bookmyshow/view/homescreen/widgets/icons_screen.dart';
 import 'package:clone_app_bookmyshow/view/homescreen/widgets/live_events.dart';
 import 'package:clone_app_bookmyshow/view/homescreen/widgets/cinema_card.dart';
-//import 'package:clone_app_bookmyshow/view/homescreen/widgets/movie_icon_screen.dart';
+
 import 'package:clone_app_bookmyshow/view/movie_screen/movie_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -17,11 +16,6 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // List<String> imagess = [
-    //   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj5ggzOUrlgzoVs5AXmR2mzXhF3-bj6gz9Qw&usqp=CAU"
-    //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRLL6yuZ1C9wllgBgGctzqJHliV5BLOz5KEQ&usqp=CAU"
-    // ];
-
     return Scaffold(
       appBar: AppBar(
         title: Column(
@@ -34,7 +28,7 @@ class HomeScreen extends StatelessWidget {
             Row(
               children: [
                 Text(
-                  "Kochi",
+                  "Kottayam",
                   style: TextStyle(color: Colors.red, fontSize: 15),
                 ),
                 Icon(

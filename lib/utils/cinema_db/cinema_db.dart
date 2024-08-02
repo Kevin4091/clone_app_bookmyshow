@@ -1,35 +1,35 @@
 List<Map> cinemaDb = [
   {
     "image":
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH1wT8FE3P3iGCiniwy1JX3WmNvQvZObrNjA&usqp=CAU",
+        "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-Mi4ySyBMaWtlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00403313-kmjhrwwgpg-portrait.jpg",
     "rating": "6.6k",
     "no": "200",
     "like": "likes",
-    "name": "Abraham Ozler"
+    "name": "Level Cross"
   },
   {
     "image":
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ220tdkCC6mf1PBsSbb8iRUu3pUhZFnRTZXK0ld_u7_46IDO6ULtcaC-uF4vv5uiTe7b0&usqp=CAU",
+        "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-MS43SyBMaWtlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00405415-sqetqccxpf-portrait.jpg",
     "rating": "8.6k",
     "no": "600",
     "like": "likes",
-    "name": "Malaikottai"
+    "name": "Panchayat Jetty"
   },
   {
     "image":
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUjdPemeUrnkgHTSeLw9YnYhBlB64LPZoI5zdBle1JNuVjNEZjUddwo6EXiYJtbXr-m8A&usqp=CAU",
+        "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-MzM1LjVLIExpa2Vz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00341295-dpsljgdvxh-portrait.jpg",
     "rating": "7.6k",
     "no": "350",
     "like": "likes",
-    "name": "LLB"
+    "name": "DeadPool&Wolverine"
   },
   {
     "image":
-        "https://m.media-amazon.com/images/M/MV5BYmI1OGM4NzAtNDc3ZC00Mjk2LThhYTctNDcyNDg4MjkwNmUzXkEyXkFqcGdeQXVyNjExMDczMDA@._V1_FMjpg_UX1000_.jpg",
+        "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC42LzEwICA2ODIuNEsgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00352941-fzpzrctbwr-portrait.jpg",
     "rating": "8.6k",
     "no": "300",
     "like": "likes",
-    "name": "Qalb"
+    "name": "Kalki"
   }
 ];
 List<Map> genresDb = [
@@ -126,37 +126,37 @@ List<Map> liveEvents = [
   {
     "image":
         "https://assets-in.bmscdn.com/discovery-catalog/events/et00384818-gfkytvbacx-portrait.jpg",
-    "day": "Sat, 17 Feb onwards",
+    "day": "Mon, 17 July onwards",
     "name": "Acting Workshop /\nActor Training"
   },
   {
     "image":
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Qp1QV-YFXH9o4RAPNDlwmpYsxrtCkaNd3w&usqp=CAU",
-    "day": "Sat, 17 Feb onwards",
+    "day": "Mon, 17 July onwards",
     "name": "Matchmaking\nCrowd Work Show"
   },
   {
     "image":
         "https://assets-in.bmscdn.com/nmcms/events/banner/mobile/media-mobile-daily-glitches-0-2024-1-21-t-9-9-12.jpg",
-    "day": "Sat,17 Feb onwards",
+    "day": "Mon, 17 July onwards",
     "name": "Aaraanu\nSanthosham"
   },
   {
     "image":
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2t-ifejKUtrTdIFPq0NLWwKBBjA6x-UddWMP-nMwLzzXIFgJkyTQpQx9i6gO87Xfx2Z0&usqp=CAU",
-    "day": "Sat, 10 Feb",
+    "day": "Mon, 17 July onwards",
     "name": "Daily Glitches"
   },
   {
     "image":
         "https://assets-in.bmscdn.com/discovery-catalog/events/et00319088-scfjnktjzb-portrait.jpg",
-    "day": "Sat, 11 Feb onwards",
+    "day": "Sat, 11 July onwards",
     "name": "Moving On\nMervyn Rozz"
   },
   {
     "image":
         "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00355125-bffbzkcxbs-portrait.jpg",
-    "day": "Sat, 9 Mar ",
+    "day": "Sat, 9 July ",
     "name": "Acting Workshop /\nActor Training"
   },
   {

@@ -12,7 +12,7 @@ class CustomCarouselSlides extends StatelessWidget {
         width: double.infinity,
         child: CarouselSlider(
             options: CarouselOptions(
-                autoPlayAnimationDuration: Duration(seconds: 1),
+                autoPlayAnimationDuration: Duration(seconds: 2),
                 height: 200,
                 viewportFraction: 1,
                 autoPlayCurve: Curves.ease,

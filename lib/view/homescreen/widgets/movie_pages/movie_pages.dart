@@ -1,6 +1,5 @@
 // ignore_for_file: prefer_const_constructors, sort_child_properties_last, prefer_const_literals_to_create_immutables, prefer_const_constructors_in_immutables
 
-import 'package:clone_app_bookmyshow/utils/home_icons.dart';
 import 'package:flutter/material.dart';
 
 class MoviePages extends StatelessWidget {

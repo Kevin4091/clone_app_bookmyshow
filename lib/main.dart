@@ -14,7 +14,7 @@ import 'package:clone_app_bookmyshow/view/movie_screen/movie_screen.dart';
 import 'package:clone_app_bookmyshow/view/movie_screen/movie_widgets/movie_widget.dart';
 import 'package:clone_app_bookmyshow/view/profile_screen/profile_screen.dart';
 import 'package:clone_app_bookmyshow/view/splash/splash_screen.dart';
-//import 'package:clone_app_bookmyshow/view/recommended/recommended.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {

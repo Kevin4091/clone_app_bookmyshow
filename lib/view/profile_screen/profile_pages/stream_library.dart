@@ -1,6 +1,5 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'package:clone_app_bookmyshow/utils/color_constatnts.dart';
 import 'package:clone_app_bookmyshow/view/profile_screen/profile_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -55,9 +54,9 @@ class StreamLibrary extends StatelessWidget {
                 ),
                 ElevatedButton(
                     style: ButtonStyle(
-                        shape: MaterialStatePropertyAll(RoundedRectangleBorder(
+                        shape: WidgetStatePropertyAll(RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(8))),
-                        backgroundColor: MaterialStatePropertyAll(Colors.red)),
+                        backgroundColor: WidgetStatePropertyAll(Colors.red)),
                     onPressed: () {},
                     child: Text("Explore Movies"))
               ],
